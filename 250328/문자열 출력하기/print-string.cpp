@@ -6,6 +6,6 @@ int main() {
     int N(0);
 
     for (int i=0; i<N; i++) 
-        cout << "LeebrsCode" << endl;
+        cout << "LeebrosCode" << endl;
     return 0;
 }
