@@ -8,18 +8,14 @@ int main() {
 
     cin >> A >> B >> C;
 
-    if (A > B) {
-        bigger = A;
-        if (bigger > C)
-            cout << C;
-        else
-            cout << bigger;
-    } else if (A < B) {
-        bigger = B;
-        if (bigger > C)
-            cout << C;
-        else
-            cout << bigger;
-    }
+    if ((A > B) && (A < C))
+        cout << A;
+    else if ((A < B) && (A > C))
+        cout << A;
+    else if (((A < B) && (A < C)) && (B < C))
+        cout << B;
+    else
+        cout << C;
+        
     return 0;
 }
