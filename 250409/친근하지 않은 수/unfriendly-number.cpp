@@ -7,7 +7,7 @@ int main() {
     int count(0);
     cin >> num;
 
-    for (int i=0; i < num; i++) {
+    for (int i=0; i <= num; i++) {
         if (i % 2==0)
             ;
         else if (i % 3==0)
