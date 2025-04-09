@@ -10,8 +10,8 @@ int main() {
     cin >> what;
 
     for (int i=0; i < 5; i++) {
-        if (fruit[i][2] == what || fruit[i][3] == what) {
-            cout << fruit[i] << endl;
+        if (fruit[i].c_str()[2] == what || fruit[i].c_str()[3] == what) {
+            cout << fruit[i].c_str() << endl;
             count++;
         }
     }
